@@ -1,8 +1,6 @@
 from datetime import datetime
 from time import strftime
-now =datetime.now()
-print(now.strftime('%d/%m/%y'))
-print(now.strftime('%d'))
+
 
 class Account:
     def __init__(self,name,number):
